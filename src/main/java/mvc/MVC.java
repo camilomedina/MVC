@@ -7,7 +7,7 @@ package mvc;
 
 import controlador.Controlador;
 import modelo.Modelo;
-import vista.Vista;
+import vista.Vista2;
 
 /**
  *
@@ -21,7 +21,7 @@ public class MVC {
     public static void main(String[] args) {
         // TODO code application logic here
         Modelo mod= new Modelo();
-        Vista view= new Vista();
+        Vista2 view= new Vista2();
         
         Controlador ctrl = new Controlador(view, mod);
         ctrl.iniciar();
