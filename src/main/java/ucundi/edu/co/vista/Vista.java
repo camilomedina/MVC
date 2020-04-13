@@ -4,11 +4,12 @@
  * and open the template in the editor.
  */
 package ucundi.edu.co.vista;
+import javax.swing.JFrame;
 
 /**
  *
  * @author Christian
  */
-public class Vista {
+public class Vista extends JFrame{
     
 }
