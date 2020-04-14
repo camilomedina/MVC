@@ -5,10 +5,31 @@
  */
 package ucundi.edu.co.modelo;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
+
 /**
  *
  * @author Christian
  */
 public class Modelo {
+    
+    private List<String> vector ;
+    
+    public Modelo(){
+        
+    }
+
+    public List<String> getVector() {
+        return vector;
+    }
+
+    public void setVector(List<String> vector) {
+        this.vector = vector;
+    }
+
+    
+    
     
 }

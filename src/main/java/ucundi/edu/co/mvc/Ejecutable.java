@@ -21,7 +21,6 @@ public class Ejecutable {
         Vista vista= new Vista();
         
         Controlador ctrl = new Controlador(vista, modelo);
-        ctrl.iniciar();
         vista.setVisible(true);
     
     
